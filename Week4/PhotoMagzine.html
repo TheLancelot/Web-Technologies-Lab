@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+           *{
+                box-sizing: border-box;
+            }
+            h1{
+                text-align: center;
+                color:aquamarine;
+                background-color:black;
+            }
+            img
+            {
+                width:100%;
+                height: auto;
+            }
+            .menu
+            {
+                color:black;
+                width:25%;
+                float:left;
+            }
+            .main
+            {
+                width: 75%;
+                float: left;
+            }
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            [class*="col-"] {
+                width: 100%;
+            }
+            @media only screen and (min-width: 600px) {
+                .col-s-1 {width: 8.33%;}
+                .col-s-2 {width: 16.66%;}
+                .col-s-3 {width: 25%;}
+                .col-s-4 {width: 33.33%;}
+                .col-s-5 {width: 41.66%;}
+                .col-s-6 {width: 50%;}
+                .col-s-7 {width: 58.33%;}
+                .col-s-8 {width: 66.66%;}
+                .col-s-9 {width: 75%;}
+                .col-s-10 {width: 83.33%;}
+                .col-s-11 {width: 91.66%;}
+                .col-s-12 {width: 100%;}
+            }
+            @media only screen and (min-width: 768px) {
+                .col-1 {width: 8.33%;}
+                .col-2 {width: 16.66%;}
+                .col-3 {width: 25%;
+                        float:left;}
+                .col-4 {width: 33.33%;}
+                .col-5 {width: 41.66%;}
+                .col-6 {width: 50%;}
+                .col-7 {width: 58.33%;}
+                .col-8 {width: 66.66%;}
+                .col-9 {width: 75%;
+                        float:left}
+                .col-10 {width: 83.33%;}
+                .col-11 {width: 91.66%;}
+                .col-12 {width: 100%;}
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Home</h1>
+        <div class="row">
+            <div class="col-3 col-s-12 ">
+                <ul>
+                    <li><p>Home</p></li>
+                    <li><a href="./PhotoMagazine2.html">Photo Gallery</a></li>
+                </ul>
+                
+            </div>
+            <div class="col-9 col-s-12 ">
+                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="My Picture">
+                <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg" alt="My Picture">
+                <img src="https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_960_720.jpg" alt="My Picture">
+                <img src="https://cdn.pixabay.com/photo/2015/04/23/21/59/hot-air-balloon-736879_960_720.jpg" alt="My Picture">
+            </div>        
+        </div>
+    </body>
+</html>
