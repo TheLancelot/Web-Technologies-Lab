@@ -1,0 +1,298 @@
+.trafficLight {
+    background-color: black;
+    width: 50px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+margin-left:35%;
+
+  }
+
+  .trafficLight span {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: gray;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    /* animation: red 5s linear infinite */
+    /* animation-fill-mode: forwards; */
+  }
+  .red {
+    animation-name: red;
+  }
+  .yellow {
+    animation-name: yellow;
+  }
+  .green {
+    animation-name: green;
+  }
+
+  @keyframes red {
+    0%,
+    33% {
+      background-color: red;
+    }
+    34%,
+    100% {
+      background-color: gray;
+    }
+  }
+
+  @keyframes yellow {
+    0%,
+    33% {
+      background-color: gray;
+    }
+    34%,
+    66% {
+      background-color: yellow;
+    }
+    67%,
+    100% {
+      background-color: gray;
+    }
+  }
+
+  @keyframes green {
+    0%,
+    66% {
+      background-color: gray;
+    }
+    67%,
+    100% {
+      background-color: green;
+    }
+  }
+
+.rectangle1{
+position: absolute;
+width: 200px;
+height: 876px;
+margin-left: 40%;
+margin-right: 50%;
+background: #000000;
+}
+
+
+.rectangle2{
+position: absolute;
+width: 250px;
+height: 900px;
+margin-left: 40%;
+margin-right: 50%;
+background: #000000;
+transform: rotate(-90deg);
+}
+
+/* Rectangle 3 */
+.rectangle3{
+position: absolute;
+width: 15px;
+height: 77px;
+margin-left: 45%;
+margin-right: 50%;
+background: #fff;
+}
+
+/* Rectangle 4 */
+.rectangle4{
+    position: absolute;
+    width: 15px;
+    height: 77px;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-top: 6%;
+    background: #fff;
+    }
+    
+/* Rectangle 5 */
+.rectangle5{
+    position: absolute;
+    width: 15px;
+    height: 77px;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-top: 12%;
+    background: #fff;
+
+}
+/* Rectangle 8 */
+.rectangle8{
+    position: absolute;
+    width: 15px;
+    height: 77px;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-top: 30%;
+    background: #fff;
+}
+
+/* Rectangle 7 */
+.rectangle7{
+    position: absolute;
+    width: 15px;
+    height: 77px;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-top: 36%;
+    background: #fff;
+}
+
+
+/* Rectangle 6 */
+.rectangle6{
+    position: absolute;
+    width: 15px;
+    height: 77px;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-top: 42%;
+    background: #fff;
+}
+
+/* Rectangle 9 */
+.rectangle9{
+position: absolute;
+width: 22px;
+height: 92px;
+margin-left: 24.5%;
+margin-right: 50%;
+margin-top: 21%;
+background: #FFFFFF;
+transform: rotate(-90deg);
+}
+/* Rectangle 10 */
+.rectangle10{
+    position: absolute;
+    width: 22px;
+    height: 92px;
+    margin-left: 30.5%;
+    margin-right: 50%;
+    margin-top: 21%;
+ 
+    background: #FFFFFF;
+    transform: rotate(-90deg);
+    }
+
+    /* Rectangle 11 */
+.rectangle11{
+    position: absolute;
+    width: 22px;
+    height: 92px;
+    margin-left: 37%;
+    margin-right: 50%;
+    margin-top: 21%;
+    background: #FFFFFF;
+    transform: rotate(-90deg);
+    }
+    
+/* Rectangle 16 */
+/* .rectangle16{
+position: absolute;
+width: 22px;
+height: 92px;
+margin-left: 37%;
+margin-right: 50%;
+margin-top: 21%;
+background: #FFFFFF;
+transform: rotate(-90deg);
+} */
+
+/* Rectangle 15 */
+.rectangle15{
+position: absolute;
+width: 22px;
+height: 92px;
+margin-left: 53%;
+margin-right: 50%;
+margin-top: 21%;
+background: #FFFFFF;
+transform: rotate(-90deg);
+}
+
+/* Rectangle 14 */
+.rectangle14{
+position: absolute;
+width: 22px;
+height: 92px;
+margin-left: 60%;
+margin-right: 50%;
+margin-top: 21%;
+background: #FFFFFF;
+transform: rotate(-90deg);
+}
+
+/* Rectangle 13 */
+.rectangle13{
+position: absolute;
+width: 22px;
+height: 92px;
+margin-left: 67%;
+margin-right: 50%;
+margin-top: 21%;
+background: #FFFFFF;
+transform: rotate(-90deg);
+}
+
+
+
+
+
+/* Rectangle 17 */
+.rectangle17{
+position: absolute;
+width: 44px;
+height: 77px;
+margin-left: 41.5%;
+margin-right: 50%;
+margin-top: 40%;
+background: #2C94B5;
+}
+
+/* Rectangle 18 */
+.rectangle18{
+position: absolute;
+width: 44px;
+height: 77px;
+margin-left: 26%;
+margin-right: 50%;
+margin-top: 18%;
+background: #3DB7DE;
+transform: rotate(-90deg);
+}
+
+/* Rectangle 19 */
+.rectangle19{
+position: absolute;
+width: 83px;
+height: 49px;
+margin-left: 25%;
+margin-right: 50%;
+margin-top: 26%;
+background: #FFFFFF;
+}
+
+/* + */
+.plus{
+position: absolute;
+width: 31px;
+height: 46px;
+margin-left: 26.5%;
+margin-right: 50%;
+margin-top: 26%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 1000;
+font-size: 40px;
+line-height: 48px;
+/* font-weight: bolder; */
+color: #E61010;
+
+}
